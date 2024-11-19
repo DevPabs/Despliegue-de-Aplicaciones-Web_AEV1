@@ -56,7 +56,7 @@ if ($_SESSION['letras_acertadas'] == $_SESSION['palabra']) {
 </head>
 <body>
     <h1>Juego del Ahorcado</h1>
-    <p id="p1">Palabra secreta: <?php echo $_SESSION['letras_acertadas']; ?></p>
+    <p class="p1">Palabra secreta: <?php echo $_SESSION['letras_acertadas']; ?></p>
     <p>Vidas restantes: <?php echo $_SESSION['vidas']; ?></p>
     <form method="post">
         <label for="letra">Introduce una letra:</label>
